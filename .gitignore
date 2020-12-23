@@ -94,3 +94,5 @@ static/img/*
 !static/img/.gitkeep
 # content/navigation.json
 content/tumblr.json
+
+README.ms

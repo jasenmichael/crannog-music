@@ -8,24 +8,24 @@
       "type": "page",
       "showInNav": true,
       "sortOrder": 0
-    },
-    {
-      "slug": "contact",
-      "title": "Contact",
-      "description": "",
-      "path": "/contact",
-      "type": "page",
-      "showInNav": true,
-      "sortOrder": 1
     }
   ],
   "posts": [
     {
-      "slug": "blog",
-      "title": "Blog",
+      "slug": "news",
+      "title": "News",
       "description": "",
-      "path": "/blog",
-      "type": "blog",
+      "path": "/news",
+      "type": "news",
+      "showInNav": true,
+      "sortOrder": 1
+    },
+    {
+      "slug": "music",
+      "title": "Music",
+      "description": "",
+      "path": "/music",
+      "type": "music",
       "showInNav": true,
       "sortOrder": 0
     },
@@ -36,16 +36,16 @@
       "path": "/photos",
       "type": "photos",
       "showInNav": true,
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
-      "slug": "articles",
-      "title": "Articles",
+      "slug": "videos",
+      "title": "Videos",
       "description": "",
-      "path": "/articles",
-      "type": "articles",
+      "path": "/videos",
+      "type": "videos",
       "showInNav": true,
-      "sortOrder": 2
+      "sortOrder": 3
     }
   ]
 }
