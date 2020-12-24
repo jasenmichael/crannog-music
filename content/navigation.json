@@ -18,7 +18,7 @@
       "path": "/news",
       "type": "news",
       "showInNav": true,
-      "sortOrder": 1
+      "sortOrder": 0
     },
     {
       "slug": "music",
@@ -27,7 +27,7 @@
       "path": "/music",
       "type": "music",
       "showInNav": true,
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "slug": "photos",

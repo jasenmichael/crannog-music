@@ -1,21 +1,10 @@
 <template>
-  <div
-    class="dark:bg-gray-800 flex flex-col mx-auto min-h-screen px-3 md:w-10/12 lg:max-w-screen-lg"
-  >
-    <!-- header -->
-    <header>
+  <div class="h-screen">
+    <div class="flex flex-col h-full bg-gray-100">
       <Nav />
-    </header>
-    <!-- header -->
-
-    <main class="flex-grow">
-      <hr />
-      <Nuxt />
-    </main>
-
-    <footer>
-      <hr />
-      <p class="copyright">Copyright 2019 Super Nuxt!</p>
-    </footer>
+      <nuxt class="container mx-auto flex-1 text-gray-900" />
+      <!-- <Footer /> -->
+      <footer class="mt-auto text-center">yo</footer>
+    </div>
   </div>
 </template>

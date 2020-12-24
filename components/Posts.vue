@@ -1,26 +1,27 @@
 <template>
   <div>
     <!-- view selector -->
-    <div class="flex items-center pt-2">
+    <div class="flex items-center space-x-2">
       <!-- TODO: add filter components -->
-      <button
-        v-for="(view, i) in views"
-        :key="view"
-        :class="i === 0 ? 'ml-auto' : 'ml-1'"
-        class="items-center flex"
-        aria-label="views[i] + ' view'"
-        @click="selectedView = i"
-      >
-        <svg
-          class="w-4 h4 flex items-center"
-          :class="i === 0 ? 'mt-3' : 'mt-2'"
-          viewBox="0 0 122 122"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="black"
+      <div class="ml-auto px-2 space-x-2">
+        <button
+          v-for="(view, i) in views"
+          :key="view"
+          class="items-center"
+          aria-label="views[i] + ' view'"
+          @click="selectedView = i"
         >
-          <path :d="icons[view]" />
-        </svg>
-      </button>
+          <svg
+            class="w-4 h-4 flex"
+            :class="i === 0 ? 'mt-3' : 'mt-2'"
+            viewBox="0 0 122 122"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="black"
+          >
+            <path :d="icons[view]" />
+          </svg>
+        </button>
+      </div>
     </div>
     <div v-if="posts.length">
       <!-- List View = 0 -->

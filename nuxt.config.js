@@ -36,7 +36,7 @@ export default {
     ],
   },
   css: [],
-  plugins: [],
+  plugins: [{ src: './plugins/smooth-scroll', mode: 'client' }],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',

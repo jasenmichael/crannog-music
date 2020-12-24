@@ -21,5 +21,6 @@ module.exports = {
     'no-undef': 'off',
     'no-unused-vars': 'off',
     'nuxt/no-env-in-hooks': 'off',
+    'max-len': [2, { code: 1500, tabWidth: 4, ignoreUrls: true }],
   },
 }

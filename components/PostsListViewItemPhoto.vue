@@ -1,7 +1,10 @@
 <template>
   <div>
     PostsListViewItemPhoto.vue
-    <pre>{{ post }}</pre>
+    <div>
+      <pre> {{ post }}</pre>
+    </div>
+    <!-- <div>{{ post }}</div> -->
   </div>
 </template>
 
