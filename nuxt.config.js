@@ -42,6 +42,7 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/svg',
     // '@nuxtjs/ngrok'
   ],
   modules: ['@nuxtjs/axios', '@nuxtjs/pwa', '@nuxt/content'],
