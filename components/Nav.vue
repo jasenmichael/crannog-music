@@ -8,6 +8,11 @@
           : 'bg-gray-900  md:py-5'
       "
     >
+      <!--  dummy div to prevent dynamic classes from being purged -->
+      <div
+        v-if="false"
+        class="transition-all w-screen fixed duration-900 z-50 ease-in-out text-gray-300 bg-gray-800 shadow-lg"
+      ></div>
       <div
         class="container mx-auto px-6 py-3 md:flex md:justify-between md:items-center"
       >

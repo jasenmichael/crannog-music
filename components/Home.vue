@@ -7,14 +7,15 @@
       >
         <img
           src="/img/cover1.jpeg"
-          class="md:w-full md:h-full pt-6 object-cover absolute inline-block"
+          class="h-3/5 w-full md:h-full pt-6 object-cover absolute inline-block"
           alt="Crannog live image"
         />
         <div
           class="relative ml-4 mt-24 text-center md:text-left lg:text-left md:ml-20 lg:ml-40"
         >
+          <!-- <div class="h-32"></div> -->
           <h1
-            class="font-light font-serif italic text-gray-200 header-h text-4xl md:text-5xl lg:text-6xl pt-52 sm:pt-60 md:pt-96"
+            class="font-light font-serif italic text-gray-200 header-h text-3xl sm:text-4xl md:text-5xl lg:text-6xl pt-96 sm:pt-60 md:pt-96"
           >
             Celtic Irish Music for the ages
           </h1>
