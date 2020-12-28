@@ -4,7 +4,11 @@
     <!-- <div class="">Facebook Twitter Instagram Email</div> -->
     <div v-for="(link, i) in social()" :key="i" class="text-gray-300">
       <a :href="link.url" target="_blank">
-        <component :is="`Icon${link.name}`" class="h-8 w-8 fill-current" />
+        <component
+          :is="`Icon${link.name}`"
+          class="h-8 w-8 fill-current"
+          :aria-label="`Connect via ${link.name}`"
+        />
       </a>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="transition-all w-screen fixed duration-900 z-50 ease-in-out text-gray-300"
+      class="transition-all w-screen fixed duration-900 z-50 ease-in-out text-gray-100"
       :class="
         $route.path !== '/' || scrollY >= yTrigger || menu
           ? 'bg-gray-800 shadow-lg'

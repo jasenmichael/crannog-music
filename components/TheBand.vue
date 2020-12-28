@@ -16,19 +16,22 @@
             <h2 class="title-font font-medium text-lg text-white">
               {{ member.name }}
             </h2>
-            <h3 class="text-gray-500 mb-3">{{ member.description }}</h3>
+            <h3 class="text-gray-300 mb-3">{{ member.description }}</h3>
 
             <!-- social links -->
             <div class="flex items-center justify-center space-x-2">
               <div
                 v-for="(link, l) in Object.keys(member.connect)"
                 :key="l"
-                class="text-gray-300"
+                class="text-gray-200"
               >
                 <a v-if="link && link !== ''" :href="link" target="_blank">
                   <component
                     :is="`Icon${link.charAt(0).toUpperCase() + link.slice(1)}`"
                     class="h-4 w-4 fill-current"
+                    :aria-label="`Connect with ${member.name} via ${
+                      link.charAt(0).toUpperCase() + link.slice(1)
+                    }`"
                   />
                   <!-- {{ link.charAt(0).toUpperCase() + link.slice(1) }} -->
                 </a>

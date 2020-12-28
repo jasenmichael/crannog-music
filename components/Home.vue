@@ -27,6 +27,7 @@
         <div class="mx-auto pt-4 pb-4">
           <a v-smooth-scroll="{ offset: -180 }" href="#welcome">
             <IconChevronRight
+              aria-label="Learn more.."
               class="mb-8 h-16 w-16 text-gray-100 fill-current transition-opacity duration-700 transform rotate-90 text-center"
             />
           </a>
