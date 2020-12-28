@@ -5,12 +5,12 @@
       :class="
         $route.path !== '/' || scrollY >= yTrigger || menu
           ? 'bg-gray-800 shadow-lg'
-          : 'bg-gray-900  md:py-5'
+          : 'bg-gray-900 md:py-5'
       "
     >
       <!--  dummy div to prevent dynamic classes from being purged -->
       <div
-        v-if="false"
+        v-show="false"
         class="transition-all w-screen fixed duration-900 z-50 ease-in-out text-gray-300 bg-gray-800 shadow-lg"
       ></div>
       <div
