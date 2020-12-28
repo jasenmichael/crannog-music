@@ -13,3 +13,10 @@ html::-webkit-scrollbar {
   width: none;
   background: transparent; /* Chrome/Safari/Webkit */
 }
+
+.dont-purge {
+  @apply bg-gray-800 shadow-lg md:py-5;
+}
+.dont-purge2 {
+  @apply bg-gray-900;
+}

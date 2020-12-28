@@ -3,7 +3,7 @@
     <nav
       class="transition-all w-screen fixed duration-900 z-50 ease-in-out text-gray-300"
       :class="
-        $route.path !== '/' || scrollY >= yTrigger || menu // : bg-gray-900
+        $route.path !== '/' || scrollY >= yTrigger || menu
           ? 'bg-gray-800 shadow-lg'
           : 'md:py-5'
       "
@@ -68,7 +68,7 @@
     <button
       v-if="menu"
       tabindex="-1"
-      class="fixed w-full h-full inset-0 cursor-default z-0 bg-black opacity-50"
+      class="fixed w-full h-full inset-0 cursor-default z-20 bg-black opacity-50"
       @click="menu = false"
     ></button>
   </div>
@@ -101,6 +101,6 @@ export default {
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: rgba(255, 255, 255, 0.5) 0 3px 3px;
+  text-shadow: rgba(255, 255, 255, 0.5) 0 3px 2px;
 }
 </style>

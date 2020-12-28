@@ -9,7 +9,7 @@
         <div class="h-full flex flex-col items-center text-center">
           <img
             :alt="`Picture of ${member.name}`"
-            class="flex-shrink-0 rounded-lg w-full h-64 md:h-80 object-cover object-center mb-4"
+            class="flex-shrink-0 rounded-md w-full h-64 md:h-80 object-cover object-center mb-4 shadow-md"
             :src="member.image"
           />
           <div class="w-full">
