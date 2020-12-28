@@ -5,7 +5,7 @@
       :class="
         $route.path !== '/' || scrollY >= yTrigger || menu
           ? 'bg-gray-800 shadow-lg'
-          : 'md:py-5'
+          : 'bg-gray-900  md:py-5'
       "
     >
       <div
