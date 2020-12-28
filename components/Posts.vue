@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- view selector -->
-    <div class="flex items-center space-x-2">
+    <div class="flex space-x-2 w-screen container">
       <!-- TODO: add filter components -->
       <div class="ml-auto px-2 space-x-2">
         <button
@@ -12,8 +12,7 @@
           @click="selectedView = i"
         >
           <svg
-            class="w-4 h-4 flex"
-            :class="i === 0 ? 'mt-3' : 'mt-2'"
+            class="w-4 h-4 m-0"
             viewBox="0 0 122 122"
             xmlns="http://www.w3.org/2000/svg"
             fill="black"
