@@ -12,13 +12,13 @@
   ],
   "posts": [
     {
-      "slug": "news",
+      "slug": "blog",
       "title": "News",
       "description": "",
-      "path": "/news",
-      "type": "news",
+      "path": "/blog",
+      "type": "blog",
       "showInNav": true,
-      "sortOrder": 0
+      "sortOrder": -1
     },
     {
       "slug": "music",
