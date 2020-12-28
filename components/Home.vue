@@ -7,7 +7,7 @@
       >
         <img
           src="/img/cover1.jpeg"
-          class="w-full h-3/5 md:h-3/4 pt-6 object-cover absolute inline-block"
+          class="md:w-full md:h-full pt-6 object-cover absolute inline-block"
           alt="Crannog live image"
         />
         <div
