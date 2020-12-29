@@ -20,7 +20,9 @@
             Celtic Irish Music for the ages
           </h1>
           <br />
-          <div class="header-t text-xl lg:text-2xl font-thin italic">
+          <div
+            class="header-t text-xl lg:text-2xl text-gray-200 font-normal italic"
+          >
             Welcome to the experience...
           </div>
         </div>
