@@ -2,7 +2,7 @@
   <div class="bg-gray-900 h-screen">
     <div class="flex flex-col h-full bg-gray-100">
       <Nav />
-      <nuxt class="flex-1 text-gray-900 pt-24 bg-gray-100" />
+      <nuxt />
       <!-- <Footer /> -->
       <footer class="mt-auto text-center bg-gray-900 text-gray-100">
         <hr class="border-gray-700 py-2" />
